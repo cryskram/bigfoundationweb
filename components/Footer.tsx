@@ -5,15 +5,15 @@ import { MdEmail, MdPerson } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-200 px-10 py-8 text-gray-600 flex flex-col items-center w-full">
-      <div className="flex flex-wrap w-full justify-evenly items-center">
+    <div className="bg-slate-200 px-4 py-8 text-gray-600 flex flex-col items-center w-full">
+      <div className="flex flex-col lg:flex-row w-full justify-evenly items-center">
         <div className="flex flex-col items-center">
           <Image src="/logo.png" width={400} height={400} alt="logo" />
           <h1 className="font-semibold text-lg mt-2">
             An Intitiative by BMSCE
           </h1>
         </div>
-        <div className="flex flex-wrap justify-start gap-10">
+        <div className="flex flex-wrap mt-10 lg:mt-0 justify-start gap-10">
           <div className="flex flex-col  space-y-4">
             <h1 className="text-black font-semibold text-xl">
               Contact Information

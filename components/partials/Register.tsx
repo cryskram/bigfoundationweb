@@ -12,7 +12,7 @@ const data = [
 
 const Register = () => {
   return (
-    <div className="py-16 px-10">
+    <div className="py-16 px-4">
       <div className="flex flex-col lg:flex-row items-center justify-center">
         <Image
           className="w-3/4 lg:w-1/3"
@@ -22,10 +22,10 @@ const Register = () => {
           alt="register image"
         />
         <div className="w-full mt-10 lg:mt-0 lg:w-1/2 flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-semibold text-start">
+          <h1 className="text-2xl md:text-4xl font-semibold text-start">
             What are you waiting for?
           </h1>
-          <p className="text-gray-500 text-start font-semibold">
+          <p className="text-gray-500 text-start font-semibold text-base md:text-lg mt-2">
             Turn your vision into reality by joining us today!
           </p>
           <div className="mt-4 w-full lg:w-3/4 mx-auto px-5">

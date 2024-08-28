@@ -29,7 +29,7 @@ export default function Carousel() {
               src={logo}
               width={150}
               height={150}
-              alt={logo.split("/")[-1]}
+              alt={`image-${index + 1}`}
             />
           </li>
         ))}
@@ -44,7 +44,7 @@ export default function Carousel() {
               src={logo}
               width={150}
               height={150}
-              alt={logo.split("/")[-1]}
+              alt={`image-${index + 1}`}
             />
           </li>
         ))}

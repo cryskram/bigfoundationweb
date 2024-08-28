@@ -16,16 +16,16 @@ const Hero = () => {
           alt="illustration"
         />
         <div className="text-white mr-auto">
-          <h1 className="font-bold text-3xl md:text-5xl text-mGreen">
+          <h1 className="font-bold text-2xl md:text-5xl text-mGreen">
             B M SREENIVASAIAH INNOVATORS GUILD FOUNDATION
           </h1>
-          <p className="text-2xl text-wrap font-medium mt-2">
+          <p className="text-xl md:text-2xl text-wrap font-medium mt-2">
             Incubating Ideas, Mothering Success
           </p>
-          <p className="mt-8 font-semibold text-3xl">
+          <p className="mt-6 font-semibold text-xl md:text-3xl">
             Your Successful Entrepreneurial Journey Begins Here
           </p>
-          <div className="flex items-center gap-4 mt-4">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mt-4">
             <Link
               className="bg-gradient-to-r from-[#3776d3] to-mGreen px-4 py-2 text-lg md:text-xl rounded-lg font-medium"
               href="/"
