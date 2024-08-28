@@ -30,7 +30,7 @@ const About = () => {
           </p>
           <Link
             className="bg-gradient-to-r from-[#3776d3] to-mGreen inline-flex items-center gap-2 text-white mt-4 px-6 py-4 text-lg md:text-xl rounded-lg font-medium"
-            href="/"
+            href="/about"
           >
             Know More <FaLongArrowAltRight size={25} />
           </Link>
