@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .links {
+        @apply font-medium border-b-2 border-white hover:border-black w-max transition duration-300
+    }
+}
