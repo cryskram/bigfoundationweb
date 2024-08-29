@@ -35,7 +35,7 @@ export async function POST(request: Request) {
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
           <p><strong>Role:</strong> ${role}</p>
-          <p><strong>Phone number::</strong> ${phone}</p>
+          <p><strong>Phone number:</strong> ${phone}</p>
           <p><strong>Query:</strong> ${query}</p>
         `,
     });
