@@ -40,7 +40,7 @@ const Register = () => {
           </div>
           <Link
             className="bg-gradient-to-r from-[#3776d3] to-mGreen px-6 py-4 text-xl rounded-lg text-white font-medium mt-10 inline-flex items-center gap-3"
-            href="/"
+            href="/register"
           >
             Get Involved <FaLongArrowAltRight size={25} />
           </Link>

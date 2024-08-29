@@ -16,7 +16,7 @@ const About = () => {
           alt="about image"
         />
         <div className="flex flex-col items-center md:items-start w-full md:w-1/2 px-4">
-          <h1 className="text-mGreen text-2xl font-bold">About Us</h1>
+          <h1 className="text-mGreen text-2xl font-bold">ABOUT US</h1>
           <h1 className="text-2xl md:text-3xl font-bold mt-2">
             We Fuel Curious Minds and Provide a Platform to Thrive
           </h1>

@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mt-4">
             <Link
               className="bg-gradient-to-r from-[#3776d3] to-mGreen px-4 py-2 text-lg md:text-xl rounded-lg font-medium"
-              href="/"
+              href="/register"
             >
               Get Involved
             </Link>

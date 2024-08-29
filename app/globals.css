@@ -7,3 +7,15 @@
         @apply font-medium border-b-2 border-white hover:border-black w-max transition duration-300
     }
 }
+
+@layer components {
+    .inputs {
+        @apply px-4 py-2 shadow-lg rounded-xl outline-none bg-white placeholder:font-medium mt-1
+    }
+}
+
+@layer components {
+    .labels {
+        @apply mt-4 font-medium
+    }
+}
