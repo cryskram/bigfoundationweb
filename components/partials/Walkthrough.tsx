@@ -24,9 +24,12 @@ const data = {
   ],
 };
 
-const Walkthrough = () => {
+const Workflow = () => {
   return (
-    <div className="py-10 px-4 flex flex-col items-center bg-gradient-to-tr from-[#4b82d3] to-mGreen">
+    <div
+      id="workflow"
+      className="py-10 px-4 flex flex-col items-center bg-gradient-to-tr from-[#4b82d3] to-mGreen"
+    >
       <h1 className="text-white font-semibold font-mono text-4xl">WORKFLOW</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-screen-lg mx-auto mt-5">
         {data.steps.map((s, idx) => (
@@ -47,4 +50,4 @@ const Walkthrough = () => {
   );
 };
 
-export default Walkthrough;
+export default Workflow;

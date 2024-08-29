@@ -6,7 +6,7 @@ import Facilities from "@/components/partials/Facilities";
 import Hero from "@/components/partials/Hero";
 import Register from "@/components/partials/Register";
 import Stories from "@/components/partials/Stories";
-import Walkthrough from "@/components/partials/Walkthrough";
+import Workflow from "@/components/partials/Walkthrough";
 import Spinner from "@/components/Spinner";
 import { useEffect, useState } from "react";
 
@@ -31,7 +31,7 @@ export default function Home() {
       <Stories />
       <About />
       <Divider />
-      <Walkthrough />
+      <Workflow />
       <Divider />
       <Facilities />
       <Divider />

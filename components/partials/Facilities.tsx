@@ -78,7 +78,10 @@ const data = {
 
 const Facilities = () => {
   return (
-    <div className="py-16 px-4 flex flex-col items-center justify-center">
+    <div
+      id="facilities"
+      className="py-16 px-4 flex flex-col items-center justify-center"
+    >
       <h1 className="text-4xl font-bold">WHAT WE DO</h1>
       <p>Learn more about our facilities</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-screen-lg mt-10">

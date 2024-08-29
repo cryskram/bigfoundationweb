@@ -5,7 +5,10 @@ import { MdEmail, MdPerson } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-200 px-4 py-8 text-gray-600 flex flex-col items-center w-full">
+    <div
+      id="footer"
+      className="bg-slate-200 px-4 py-8 text-gray-600 flex flex-col items-center w-full"
+    >
       <div className="flex flex-col lg:flex-row w-full justify-evenly items-center">
         <div className="flex flex-col items-center">
           <Image src="/logo.png" width={400} height={400} alt="logo" />

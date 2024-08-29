@@ -6,7 +6,10 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="py-16 w-full px-4 md:px-10 bg-gradient-to-b from-white to-gray-100">
+    <div
+      id="aboutus"
+      className="py-16 w-full px-4 md:px-10 bg-gradient-to-b from-white to-gray-100"
+    >
       <div className="flex flex-col gap-10 md:flex-row items-center justify-center w-full">
         <Image
           className="w-full md:w-1/2 lg:w-1/3"

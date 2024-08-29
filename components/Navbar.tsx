@@ -14,7 +14,7 @@ const NavbarComponent = () => {
   };
 
   return (
-    <div className="px-8 w-full py-4 bg-white shadow-md">
+    <div className="px-8 z-50 sticky top-0 w-full py-4 bg-white shadow-md">
       <div className="flex justify-between items-center">
         <Link href="/">
           <Image src="/logo.png" width={100} height={100} alt="logo" />
@@ -23,22 +23,19 @@ const NavbarComponent = () => {
           <Link className="links" href="/">
             Home
           </Link>
-          <Link className="links" href="/#whyus">
+          <Link className="links" href="#aboutus">
             About Us
           </Link>
-          <Link className="links" href="/#services">
-            Walkthrough
+          <Link className="links" href="#workflow">
+            Workflow
           </Link>
-          <Link className="links" href="/#events">
+          <Link className="links" href="#facilities">
             Facilities
           </Link>
-          <Link className="links" href="/about">
+          <Link className="links" href="#register">
             Register
           </Link>
-          <Link className="links" href="/about">
-            Events
-          </Link>
-          <Link className="links" href="/about">
+          <Link className="links" href="#footer">
             Contact
           </Link>
         </div>
@@ -54,22 +51,19 @@ const NavbarComponent = () => {
             <Link className="links" href="/">
               Home
             </Link>
-            <Link className="links" href="/#whyus">
+            <Link className="links" href="#aboutus">
               About Us
             </Link>
-            <Link className="links" href="/#services">
-              Walkthrough
+            <Link className="links" href="#workflow">
+              Workflow
             </Link>
-            <Link className="links" href="/#events">
+            <Link className="links" href="#facilities">
               Facilities
             </Link>
-            <Link className="links" href="/about">
+            <Link className="links" href="#register">
               Register
             </Link>
-            <Link className="links" href="/about">
-              Events
-            </Link>
-            <Link className="links" href="/about">
+            <Link className="links" href="#footer">
               Contact
             </Link>
           </div>

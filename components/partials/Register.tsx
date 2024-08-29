@@ -12,7 +12,7 @@ const data = [
 
 const Register = () => {
   return (
-    <div className="py-16 px-4">
+    <div id="register" className="py-16 px-4">
       <div className="flex flex-col lg:flex-row items-center justify-center">
         <Image
           className="w-3/4 lg:w-1/3"

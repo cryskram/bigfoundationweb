@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-hero bg-cover w-full h-screen relative">
       <div className="absolute inset-0 bg-black opacity-60"></div>
-      <div className="relative z-50 grid grid-cols-1 md:grid-cols-2 gap-4 w-full items-center p-6">
+      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-4 w-full items-center p-6">
         <Image
           className="w-3/4 md:w-1/2 mx-auto"
           src="/logonotext.png"
@@ -16,7 +16,7 @@ const Hero = () => {
           alt="illustration"
         />
         <div className="text-white mr-auto">
-          <h1 className="font-bold text-2xl md:text-5xl text-mGreen">
+          <h1 className="font-bold text-2xl z-10 md:text-5xl text-mGreen">
             B M SREENIVASAIAH INNOVATORS GUILD FOUNDATION
           </h1>
           <p className="text-xl md:text-2xl text-wrap font-medium mt-2">
