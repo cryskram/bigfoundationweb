@@ -16,7 +16,7 @@ const RegisterPage = () => {
   const [phone, setPhone] = useState("");
   const [query, setQuery] = useState("");
 
-  const handleSubmit = async (event: Event) => {
+  const handleSubmit = async (event: any) => {
     event.preventDefault();
     setLoading(true);
     try {
@@ -27,7 +27,7 @@ const RegisterPage = () => {
         phone,
         query,
       });
-      const res = response.data;
+      const res: any = response.data;
 
       if (res.success) {
         setMessage("Registration Successful. We Will get back to you shortly.");
