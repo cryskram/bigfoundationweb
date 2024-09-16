@@ -7,26 +7,31 @@ const data = {
     {
       image: "/aboutus/ragini.png",
       name: "Dr. B. S. Ragini Narayan",
+      designation: "Donor Trustee And Member Secretary, BMSET",
       position: "Patron",
     },
     {
       image: "/aboutus/dayanandapai.png",
       name: "Dr. P. Dayanand Pai",
+      designation: "Chairman, BMSCE and Trustee, BMSET",
       position: "Patron",
     },
     {
-      image: "/aboutus/ravishankar.png",
-      name: "Dr. B. V. Ravishankar",
+      image: "/aboutus/bheemsha.jpeg",
+      name: "Dr. Bheemsha Arya",
+      designation: "Principal, BMSCE",
       position: "Patron",
     },
     {
       image: "/aboutus/hnsuma.png",
       name: "Dr. H. N. Suma",
+      designation: "Dean Innovation, BMSCE",
       position: "Chief Convener",
     },
     {
       image: "/aboutus/abhishekappaji.png",
       name: "Dr. Abhishek M. Appaji",
+      designation: "Research and Development Head, BMSCE",
       position: "Technical Lead",
     },
   ],
@@ -154,7 +159,10 @@ const AboutUs = () => {
         <h1 className="mt-20 text-3xl font-bold">Home Team</h1>
         <div className="flex flex-wrap items-start justify-center gap-20 mt-6">
           {data.directors.map((d, idx) => (
-            <div className="flex flex-col items-center" key={idx}>
+            <div
+              className="flex flex-col items-center max-w-64 text-center"
+              key={idx}
+            >
               <Image
                 className="rounded-full"
                 src={d.image}
@@ -163,7 +171,10 @@ const AboutUs = () => {
                 alt={d.name}
               />
               <h1 className="text-xl font-semibold mt-4">{d.name}</h1>
-              <p className="text-base mt-1 text-gray-600 font-medium">
+              <p className="text-base mt-1 text-gray-500 font-medium">
+                {d.designation}
+              </p>
+              <p className="text-base text-gray-600 font-medium">
                 {d.position}
               </p>
             </div>
@@ -175,7 +186,7 @@ const AboutUs = () => {
         <div className="flex flex-wrap items-start justify-center gap-20 mt-6">
           {data.advisors.map((d, idx) => (
             <div
-              className="flex flex-col text-center items-center max-w-60"
+              className="flex flex-col text-center items-center max-w-64"
               key={idx}
             >
               <Image
@@ -198,7 +209,7 @@ const AboutUs = () => {
         <div className="flex flex-wrap items-start justify-center gap-20 mt-6">
           {data.mentors.map((d, idx) => (
             <div
-              className="flex flex-col text-center items-center max-w-60"
+              className="flex flex-col text-center items-center max-w-64"
               key={idx}
             >
               <Image

@@ -23,19 +23,19 @@ const NavbarComponent = () => {
           <Link className="links" href="/">
             Home
           </Link>
-          <Link className="links" href="#aboutus">
+          <Link className="links" href="/#aboutus">
             About Us
           </Link>
-          <Link className="links" href="#workflow">
+          <Link className="links" href="/#workflow">
             Workflow
           </Link>
-          <Link className="links" href="#facilities">
+          <Link className="links" href="/#facilities">
             Facilities
           </Link>
-          <Link className="links" href="#register">
+          <Link className="links" href="/#register">
             Register
           </Link>
-          <Link className="links" href="#footer">
+          <Link className="links" href="/#footer">
             Contact
           </Link>
         </div>
@@ -51,19 +51,19 @@ const NavbarComponent = () => {
             <Link className="links" href="/">
               Home
             </Link>
-            <Link className="links" href="#aboutus">
+            <Link className="links" href="/#aboutus">
               About Us
             </Link>
-            <Link className="links" href="#workflow">
+            <Link className="links" href="/#workflow">
               Workflow
             </Link>
-            <Link className="links" href="#facilities">
+            <Link className="links" href="/#facilities">
               Facilities
             </Link>
-            <Link className="links" href="#register">
+            <Link className="links" href="/#register">
               Register
             </Link>
-            <Link className="links" href="#footer">
+            <Link className="links" href="/#footer">
               Contact
             </Link>
           </div>

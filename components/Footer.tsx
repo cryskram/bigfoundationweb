@@ -50,14 +50,16 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col  space-y-4">
-            <h1 className="text-black font-semibold text-xl">Technical Lead</h1>
+            <h1 className="text-black font-semibold text-xl">
+              Management Lead
+            </h1>
             <div className="flex gap-3 items-start">
               <MdPerson className="text-mGreen" size={20} />
-              <p className="font-medium">Dhawan Solanki</p>
+              <p className="font-medium">Chirag Pradhan</p>
             </div>
             <div className="flex gap-3 items-start">
               <MdEmail className="text-mGreen" size={20} />
-              <p className="font-medium">dhawan.ee21@bmsce.ac.in</p>
+              <p className="font-medium">chirag.ec21@bmsce.ac.in</p>
             </div>
           </div>
         </div>
