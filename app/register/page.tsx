@@ -47,7 +47,7 @@ const RegisterPage = () => {
   };
 
   if (loading) {
-    return;
+    return <Spinner />;
   }
 
   return (
