@@ -21,7 +21,7 @@ export async function POST(request: Request) {
   try {
     await transporter.sendMail({
       from: process.env.EMAIL,
-      to: email as string,
+      to: process.env.EMAIL,
       subject: "Welcome to Big Foundation",
       text: `
           Name: ${name}
