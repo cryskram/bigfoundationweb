@@ -1,6 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-import { FaLocationDot, FaRegCopyright } from "react-icons/fa6";
+import {
+  FaInstagram,
+  FaLinkedin,
+  FaLocationDot,
+  FaRegCopyright,
+} from "react-icons/fa6";
 import { MdEmail, MdPerson } from "react-icons/md";
 
 const Footer = () => {
@@ -35,7 +41,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-3 items-start">
               <MdEmail className="text-mGreen" size={20} />
-              <p className="font-medium">bmsbigfoundation@gmail.com</p>
+              <p className="font-medium">bigfoundationbms@gmail.com</p>
             </div>
           </div>
           <div className="flex flex-col  space-y-4">
@@ -55,16 +61,30 @@ const Footer = () => {
             </h1>
             <div className="flex gap-3 items-start">
               <MdPerson className="text-mGreen" size={20} />
-              <p className="font-medium">Chirag Pradhan</p>
+              <p className="font-medium">Abhishek M Appaji</p>
             </div>
             <div className="flex gap-3 items-start">
               <MdEmail className="text-mGreen" size={20} />
-              <p className="font-medium">chirag.ec21@bmsce.ac.in</p>
+              <p className="font-medium">abhishek.ml@bmsce.ac.in</p>
             </div>
           </div>
         </div>
       </div>
-      <h1 className="inline-flex gap-3 font-semibold items-center mt-20">
+      <div className="flex gap-3 items-center mt-5">
+        <Link
+          className="bg-mGreen p-3 rounded-full text-white"
+          href="https://www.instagram.com/big_foundation_/"
+        >
+          <FaInstagram size={24} />
+        </Link>
+        <Link
+          className="bg-mGreen p-3 rounded-full text-white"
+          href="https://www.linkedin.com/company/big-foundation-bmsce/?viewAsMember=true"
+        >
+          <FaLinkedin size={24} />
+        </Link>
+      </div>
+      <h1 className="inline-flex gap-3 font-semibold items-center mt-10">
         <FaRegCopyright /> 2024 BIG FOUNDATION All Rights Reserved
       </h1>
     </div>
