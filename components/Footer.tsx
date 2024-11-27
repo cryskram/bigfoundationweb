@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col  space-y-4">
-            <h1 className="text-black font-semibold text-xl">Chief Convener</h1>
+            <h1 className="text-black font-semibold text-xl">CEO, Director</h1>
             <div className="flex gap-3 items-start">
               <MdPerson className="text-mGreen" size={20} />
               <p className="font-medium">Dr. H. N. Suma</p>
@@ -56,12 +56,10 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col  space-y-4">
-            <h1 className="text-black font-semibold text-xl">
-              Management Lead
-            </h1>
+            <h1 className="text-black font-semibold text-xl">Director</h1>
             <div className="flex gap-3 items-start">
               <MdPerson className="text-mGreen" size={20} />
-              <p className="font-medium">Abhishek M Appaji</p>
+              <p className="font-medium">Dr. Abhishek M Appaji</p>
             </div>
             <div className="flex gap-3 items-start">
               <MdEmail className="text-mGreen" size={20} />
